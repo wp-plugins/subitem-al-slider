@@ -1,0 +1,79 @@
+.subitem_al_txt
+{
+position: absolute;
+/*top:100px;
+left:250px;*/
+}
+.subitem_al_img
+{
+position: absolute;
+}
+
+.subitem_al_item
+{
+position: absolute;
+top:0px;
+left:0px;
+/*height:420px;*/
+/*visibility:hidden;*/
+display:none;
+}
+.subitem_al_subitem
+{
+position: absolute;
+top:0px;
+left:0px;
+}
+.subitem_al_slide1
+{
+position: absolute;
+top:0px;
+left:0px;
+display:none;
+z-index:0;
+}
+.subitem_al_first
+{
+}
+.subitem_al_second
+{
+margin-left:50%;
+width:0%;
+}
+.subitem_al_slider_main
+{
+padding:0;
+margin:0 auto;
+}
+.subitem_al_arrow
+{
+position: absolute;
+float:left;
+z-index:1000;
+display:none;
+/*
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+
+  filter: alpha(opacity=40);
+
+  -moz-opacity: 0.4;
+*/
+  /* Safari 1.x */
+  -khtml-opacity: 0.4;
+
+  /* Good browsers */
+  opacity: 0.4;
+}
+.subitem_al_arrow_left
+{
+position:absolute;
+left:5px;
+cursor:pointer;
+z-index:110;
+}
+.subitem_al_arrow_right
+{
+position:absolute;
+cursor:pointer;
+z-index:110;
+}

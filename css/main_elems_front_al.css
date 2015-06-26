@@ -1,0 +1,85 @@
+/*
+.subitem-al-no-flick
+{
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+-webkit-perspective: 800px;
+-moz-perspective: 800px;
+-ms-perspective: 800px;
+-o-perspective: 800px;
+perspective: 800px;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+*/
+.subitem_al_left_border
+{
+float:left;
+}
+.subitem_al_move_btn
+{
+cursor:pointer;
+}
+.subitem_al_clear_line
+{
+clear:both;
+}
+.subitem_al_main_table
+{
+width:600px;
+height:500px;
+border:1px solid black;
+}
+.subitem_al_container
+{
+overflow:hidden;
+float:left;
+position:relative;
+}
+/*
+.subitem_al_txt
+{
+color:blue;
+font-size:16pt;
+font-family:Times,Arial;
+}
+*/
+.subitem_al_group_elem
+{
+position:absolute;
+left:0;
+top:0;
+      -webkit-transform:rotate3d(0,0,0,0deg);
+      -moz-transform:rotate3d(0,0,0,0deg);
+      -o-transform:rotate3d(0,0,0,0deg);
+      -ms-transform:rotate3d(0,0,0,0deg);
+      transform:rotate3d(0,0,0,0deg);
+      -webkit-transform-origin : transform_origin;
+      -moz-transform-origin : transform_origin;
+      -o-transform-origin : transform_origin;
+      -ms-transform-origin : transform_origin;
+      transform-origin : transform_origin;
+      /*
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+
+  filter: alpha(opacity=100);
+
+  -moz-opacity: 1;
+  */
+
+  -khtml-opacity: 1;
+
+  opacity: 1;
+
+}

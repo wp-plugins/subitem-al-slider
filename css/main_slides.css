@@ -1,0 +1,94 @@
+.txt
+{
+position: absolute;
+/*top:100px;
+left:250px;*/
+}
+.img
+{
+position: absolute;
+}
+
+.item
+{
+position: absolute;
+top:0px;
+left:0px;
+/*height:420px;*/
+/*visibility:hidden;*/
+display:none;
+}
+.subitem
+{
+position: absolute;
+top:0px;
+left:0px;
+}
+.manage
+{
+position: absolute;
+top:450px;
+left:0px;
+}
+.manage2
+{
+position: absolute;
+top:450px;
+left:250px;
+}
+.manage3
+{
+position: absolute;
+top:450px;
+left:500px;
+}
+.slide1
+{
+position: absolute;
+top:0px;
+left:0px;
+display:none;
+z-index:0;
+}
+.first
+{
+}
+.second
+{
+margin-left:50%;
+width:0%;
+}
+.slider_main
+{
+padding:0;
+margin:0 auto;
+}
+.arrow
+{
+position: absolute;
+float:left;
+z-index:1000;
+display:none;
+/*
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+
+  filter: alpha(opacity=40);
+
+  -moz-opacity: 0.4;
+*/
+  /* Safari 1.x */
+  -khtml-opacity: 0.4;
+
+  /* Good browsers */
+  opacity: 0.4;
+}
+.arrow_left
+{
+float:left;
+cursor:pointer;
+}
+.arrow_right
+{
+float:right;
+cursor:pointer;
+}
